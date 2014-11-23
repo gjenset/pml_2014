@@ -117,13 +117,13 @@ The plot below shows the importance of each predictor (based on the Gini
 coefficient) in the final result. Despite much variation, it seems that
 belt and dumbbell measurements work best.
 
-![alt text](img/var_importance_dotplot.png)
+![alt text](var_importance_dotplot.png)
 
 The mosaic plot below, showing the final model's confusion matrix,
 shows that classes A and E were the easiest for the model to predict,
 with B and D being the hardest.
 
-![alt text](img/mosaic_plot_confusion_matrix.png)
+![alt text](mosaic_plot_confusion_matrix.png)
 
 The final model was fitted to the entire training set with the following
 command (again using the caret package):
@@ -171,13 +171,13 @@ References
  
  [2] R Development Core Team, R: A Language and Environment for Statistical Computing. Vienna, 2014.
  
- [3] M. Kuhn, ‚ÄúBuilding predictive models in R using the caret package,‚Äù Journal of Statistical Software, vol. 28, no. 5, pp. 1‚Äì26, 2008.
+ [3] M. Kuhn, ìBuilding predictive models in R using the caret package,î Journal of Statistical Software, vol. 28, no. 5, pp. 1ñ26, 2008.
  
  [4] Max Kuhn. Contributions from Jed Wing, Steve Weston, Andre Williams, Chris Keefer, Allan Engelhardt, Tony Cooper, Zachary
    Mayer, Brenton Kenkel, the R Core Team and Michael Benesty.  caret: Classification and Regression Training. R package
    version 6.0-37. 2014
    
- [5] A. Liaw and M. Wiener, ‚ÄúClassification and Regression by randomForest,‚Äù R News, vol. 2, no. 3, pp. 18‚Äì22, 2002.
+ [5] A. Liaw and M. Wiener, ìClassification and Regression by randomForest,î R News, vol. 2, no. 3, pp. 18ñ22, 2002.
  
  
 Appendix
